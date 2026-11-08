@@ -121,7 +121,7 @@ class _TemperatureConverterScreenState
                     const SizedBox(width: 24),
                     Expanded(
                       child: DropdownButtonFormField<String>(
-                        value: _selectedType,
+                        initialValue: _selectedType,
                         decoration: const InputDecoration(
                           labelText: 'Type',
                           border: UnderlineInputBorder(),
